@@ -2,37 +2,63 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-  <!-- add css file -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stitch Gym</title>
+
+    <!-- Roboto Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-
-  <div id="hero">
-    <div class="container">
-      <div class="content">
-        <div class="topper">Best Gym Of The City For Fitness</div>
-        <div class="title">You Can Boost Your Strength</div>
-        <div class="text">
-          Develop confidence, composure under pressure and the discipline needed to be a champ. This is the club you’ve
-          been looking for.
+<header>
+    <div class="top-bar">
+        <div class="contact-info">
+            <p class="email">📧 stitchgym@gmail.com</p>
+            <p class="phone">📞 Call us: +84 1985 33 999</p>
+            <p class="schedule">🕒 Opening hours: Mon - Sat: 8:00am To 9:00pm</p>
         </div>
-        <div class="button-group">
-          <a href="" class="button-solid ">Read More</a>
+        <div class="social-media-icons">
+            <a href="#"><img src="./images/Facebook.svg" alt="Facebook"/></a>
+            <a href="#"><img src="./images/Twitter.svg" alt="Twitter"/></a>
+            <a href="#"><img src="./images/Instagram.svg" alt="Instagram"/></a>
         </div>
-      </div>
     </div>
+</header>
+<nav>
+    <div class="logo">
+        <img src="./images/gym-logo.png" alt="Gym Logo"/>
+        <h1>Stitch Gym</h1>
+    </div>
+    <div class="nav-links-container">
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Classes</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><button class="join-button" type="button">Join Us Today</button></li>
+        </ul>
+    </div>
+</nav>
 
-
- 
-<img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/gym-hero.png" alt="">
-
-    <img class="graphic" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/white-splatter2.svg"
-      alt="graphic" height="161" width="1920" loading="lazy" decoding="async">
-
-  </div>
-
+<!-- Sección principal con imagen de fondo, texto y botón -->
+<main class="hero-section">
+    <div class="hero-content">
+        <p class="subheading">BEST GYM OF THE CITY FOR FITNESS</p>
+        <h2>You Can Boost Your Strength</h2>
+        <p class="description">Develop confidence, composure under pressure and the discipline needed to be a champ.
+            This is the club you've been looking for.</p>
+        <button type="submit" class="btn-primary">Get Started</button>
+    </div>
+</main>
+<!-- Footer con diseño SVG -->
+<footer>
+    <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/white-splatter2.svg"
+         alt="graphic" height="161px" loading="lazy" decoding="async">
+</footer>
 </body>
 
 </html>
